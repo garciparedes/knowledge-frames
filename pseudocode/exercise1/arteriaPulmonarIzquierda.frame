@@ -1,0 +1,5 @@
+Instancia Arteria-Pulmonar-Izquierda es instancia-de Gran-Arteria;
+	oxígeno = pobre;
+	presión = 13;
+	diámetro = 1.4
+end

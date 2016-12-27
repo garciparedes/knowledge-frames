@@ -1,0 +1,4 @@
+Clase Gran-Arteria es subclase-de Arteria;
+	max-diámetro = 2.5;
+	min-diámetro = 1
+end

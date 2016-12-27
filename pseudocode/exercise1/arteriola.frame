@@ -1,0 +1,3 @@
+Clase Arteriola es subclase-de Arteria;
+	diámetro = 0.003
+end

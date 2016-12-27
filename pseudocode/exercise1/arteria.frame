@@ -1,0 +1,7 @@
+Clase Arteria es subclase-de Vaso-Saguíneo;
+	oxígeno = alto;
+	pared = gruesa;
+	dirección = órganos;
+	max-presión = 100;
+	min-presión = 40
+end

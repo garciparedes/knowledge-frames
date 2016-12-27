@@ -17,6 +17,21 @@
 \usepackage[hidelinks]{hyperref}
 
 
+\usepackage{listings,lstautogobble}
+\usepackage{pxfonts}
+
+\lstset{
+    language=bash,
+    basicstyle=\ttfamily,
+    keywordstyle=\bfseries,
+    sensitive=false,
+    morekeywords={Clase, instancia-de, es, subclase-de, end, Instancia}
+    showstringspaces=false,
+    inputencoding=utf8,
+    extendedchars=true,
+		literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1 {ñ}{{\~n}}1,
+}
+
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 
@@ -56,6 +71,14 @@
 
   \section{Representar la siguiente descripción de los vasos sanguíneos mediante un sistema de marcos:}
 
+		\begin{figure}[htpb!]
+			\begin{center}
+				\includegraphics[width=0.75\textwidth]{diagram}
+				\caption{Representación de los basos sanguíneos}
+				\label{image:blood-vessel}
+			\end{center}
+		\end{figure}
+
     \begin{enumerate}[label=\alph*)]
 
       \item Los vasos sanguíneos tienen forma tubular y transportan sangre.
@@ -84,17 +107,98 @@
 
     \end{enumerate}
 
-
-		\begin{figure}[htpb!]
-			\begin{center}
-				\includegraphics[width=0.75\textwidth]{diagram}
-				\caption{Representación de los basos sanguíneos}
-				\label{image:blood-vessel}
-			\end{center}
-		\end{figure}
-
-
 		\paragraph{}
+
+		\subsection{Clases}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/vasoSanguineo.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/arteria.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/vena.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/capilar.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/granArteria.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/pequenaArteria.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/arteriola.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/granVena.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/pequenaVena.frame}
+			\end{figure}
+
+		\subsection{Instancias}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/aorta.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/arteriaPulmonarIzquierda.frame}
+			\end{figure}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/arteriaCubital.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/venaPulmonar.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise1/venaCaba.frame}
+			\end{figure}
+
+		\subsection{Diagrama}
+
+			\begin{figure}[htpb!]
+				\begin{center}
+					\includegraphics[width=\textwidth]{exercise-1-diagram}
+					\caption{Ejercicio 1: Diagrama de Clases e Instancias}
+					\label{image:blood-vessel}
+				\end{center}
+			\end{figure}
+
+			\paragraph{}
 
 
 
