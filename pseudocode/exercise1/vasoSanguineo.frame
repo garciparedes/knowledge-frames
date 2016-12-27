@@ -1,5 +1,5 @@
 Class Vaso-Sanguíneo is subClassOf T;
-	forma= tubular;
+	forma = tubular;
 	contiene = fluido-sanguíneo;
 	*oxígeno;
 	*diámetro;
