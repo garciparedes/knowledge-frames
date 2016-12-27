@@ -1,3 +1,3 @@
-Instancia Aorta es instancia-de Gran-Arteria;
+Instance Aorta is instanceOf Gran-Arteria;
 	diámetro = 2.5
 end

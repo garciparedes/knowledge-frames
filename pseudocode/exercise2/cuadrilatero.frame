@@ -1,0 +1,8 @@
+Class Cuadrilátero is subClassOf Polígono;
+    n-lados: (value 4);
+    *base: (type real);
+    *altura: (type real);
+    *área:(daemon ifNeeded
+        AreaCuadrilatero(a:base, a:altura)
+    )
+end

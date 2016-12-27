@@ -1,0 +1,11 @@
+Class Cuadrado is subClassOf Cuadrilátero, Polígono-regular;
+    *base: (daemon ifNeeded
+        igual(a:lado-largo)
+    );
+    *altura: (daemon ifNeeded
+        igual(a:lado-largo)
+    );
+    *apotema (daemon ifNeeded
+        mitad(a:lado-largo)
+    )
+end

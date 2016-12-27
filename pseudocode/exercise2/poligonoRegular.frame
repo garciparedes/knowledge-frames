@@ -1,0 +1,12 @@
+Class Polígono-regular is subClassOf Polígono;
+    tipo-ángulos: (value igualis);
+    tipo-lados: (value igualis);
+    *lado-largo: (type real);
+    *apotema: (type real);
+    *perímetro: (type real, daemon ifNeeded
+        PerímetroPolRegular(a:lado-largo, a:n-lados)
+    )
+    *área: (daemon ifNeeded
+        AreaPolRegular(a:perímetro, a:apotema)
+    )
+end

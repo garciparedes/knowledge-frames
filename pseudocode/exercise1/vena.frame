@@ -1,6 +1,6 @@
-Clase Vena es subclase-de Vaso-Saguíneo;
+Class Vena is subClassOf Vaso-Saguíneo;
 	oxígeno = pobre;
 	dirección = corazón;
 	pared = delgada;
-	max-presión = 10
+	max-prisión = 10
 end

@@ -16,16 +16,16 @@
 
 \usepackage[hidelinks]{hyperref}
 
+\usepackage{listings}
+\usepackage{courier}
 
-\usepackage{listings,lstautogobble}
-\usepackage{pxfonts}
 
 \lstset{
     language=bash,
     basicstyle=\ttfamily,
     keywordstyle=\bfseries,
     sensitive=false,
-    morekeywords={Clase, instancia-de, es, subclase-de, end, Instancia}
+    morekeywords={, instanceOf, is, subClassOf, end, instance, daemon, ifNeeded, class, type, value}
     showstringspaces=false,
     inputencoding=utf8,
     extendedchars=true,
@@ -71,7 +71,7 @@
 
   \section{Representar la siguiente descripción de los vasos sanguíneos mediante un sistema de marcos:}
 
-		\begin{figure}[htpb!]
+		\begin{figure}[H]
 			\begin{center}
 				\includegraphics[width=0.75\textwidth]{diagram}
 				\caption{Representación de los basos sanguíneos}
@@ -190,11 +190,11 @@
 
 		\subsection{Diagrama}
 
-			\begin{figure}[htpb!]
+			\begin{figure}[H]
 				\begin{center}
 					\includegraphics[width=\textwidth]{exercise-1-diagram}
 					\caption{Ejercicio 1: Diagrama de Clases e Instancias}
-					\label{image:blood-vessel}
+					\label{image:diagram-1}
 				\end{center}
 			\end{figure}
 
@@ -225,5 +225,47 @@
 
 
 		\paragraph{}
+
+
+    \subsection{Clases}
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise2/poligono.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise2/poligonoRegular.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise2/cuadrilatero.frame}
+			\end{figure}
+
+
+			\begin{figure}[H]
+				\centering
+        \lstinputlisting{pseudocode/exercise2/cuadrado.frame}
+			\end{figure}
+
+    \subsection{Diagrama}
+
+
+			\begin{figure}[H]
+				\begin{center}
+					\includegraphics[width=\textwidth]{exercise-2-diagram}
+					\caption{Ejercicio 2: Diagrama de Clases}
+					\label{image:diagram-2}
+				\end{center}
+			\end{figure}
+
+    \subsection{Contradicciones}
+
+      \paragraph{}
+      Existe una contradicción debido a la herencia múltiple del modelo de marcos diseñado. Esta sucede en la propiedad \textbf{área} de la clase \textbf{cuadrado}, que tiene dos implementaciones al mismo nivel de herencia. Estas se corresponden con los demonios \emph{AreaPolRegular} y \emph{AreaCuadrilatero}
 
 \end{document}

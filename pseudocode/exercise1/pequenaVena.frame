@@ -1,3 +1,3 @@
-Clase Pequeña-Vena es subclase-de Vena;
+Class Pequeña-Vena is subClassOf Vena;
 	diámetro = 0.5
 end

@@ -1,2 +1,2 @@
-Instancia Vena-Pulmonar es instancia-de Gran-Vena;
+Instance Vena-Pulmonar is instanceOf Gran-Vena;
 end

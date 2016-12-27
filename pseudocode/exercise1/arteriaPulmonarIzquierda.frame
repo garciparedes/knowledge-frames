@@ -1,5 +1,5 @@
-Instancia Arteria-Pulmonar-Izquierda es instancia-de Gran-Arteria;
+Instance Arteria-Pulmonar-Izquierda is instanceOf Gran-Arteria;
 	oxígeno = pobre;
-	presión = 13;
+	prisión = 13;
 	diámetro = 1.4
 end

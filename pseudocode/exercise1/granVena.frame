@@ -1,4 +1,4 @@
-Clase Gran-Vena es subclase-de Vena;
+Class Gran-Vena is subClassOf Vena;
 	max-diámetro = 3;
 	min-diámetro = 1.5
 end

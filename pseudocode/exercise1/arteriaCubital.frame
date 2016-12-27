@@ -1,2 +1,2 @@
-Instancia Arteria-Cubital es instancia-de Pequeña-Arteria;
+Instance Arteria-Cubital is instanceOf Pequeña-Arteria;
 end
