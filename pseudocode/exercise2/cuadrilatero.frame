@@ -3,6 +3,6 @@ Class Cuadrilátero is subClassOf Polígono;
     *base: (type real);
     *altura: (type real);
     *área:(daemon ifNeeded
-        AreaCuadrilatero(a:base, a:altura)
+        areaCuadrilatero(a:base, a:altura)
     )
 end

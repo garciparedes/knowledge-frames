@@ -4,9 +4,9 @@ Class Polígono-regular is subClassOf Polígono;
     *lado-largo: (type real);
     *apotema: (type real);
     *perímetro: (type real, daemon ifNeeded
-        PerímetroPolRegular(a:lado-largo, a:n-lados)
+        perímetroRegular(a:lado-largo, a:n-lados)
     )
     *área: (daemon ifNeeded
-        AreaPolRegular(a:perímetro, a:apotema)
+        areaRegular(a:perímetro, a:apotema)
     )
 end

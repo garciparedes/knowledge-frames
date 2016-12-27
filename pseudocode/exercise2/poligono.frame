@@ -1,6 +1,6 @@
 Class Polígono is subClassOf T;
-    tipo-ángulos: (type {igualis, distintos});
-    tipo-lados: (type {igualis, distintos)};
+    tipo-ángulos: (type {igual, diferente});
+    tipo-lados: (type {igual, diferente});
     n-lados: (type int);
     *área: (type real)
 end
